@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(245, 243, 243);
+}
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgb(231, 224, 224);
+  height: 50px;
+  width: 100%;
+}
+h3 {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: brown;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+.nav-links li a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  color: black;
+}
+.nav-links li a:hover {
+  color: brown;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.price {
+  color: brown;
+  text-shadow: 1px 2px 2px rgb(97, 96, 96);
+}
+.shrimp,
+.fries,
+.steak {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+h4 {
+  color: black;
+  text-shadow: 1px 2px 2px rgb(97, 96, 96);
+}
+img {
+  width: 450px;
+  height: 300px;
+  margin-top: 60px;
+  padding: 10px;
+}
+img:hover {
+  opacity: 0.7;
+}
+
+.shrimp,
+img,
+.noodles,
+.fries,
+.steak,
+.vegetables,
+.meat,
+h3,
+h4,
+p {
+  display: block;
+}
+p {
+  right: 10px;
+  left: 10px auto;
+}
